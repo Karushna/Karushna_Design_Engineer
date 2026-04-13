@@ -56,7 +56,8 @@ const HeroSection = () => {
                 Get in Touch
               </a>
               <a
-                href="#"
+                href="/Karushna_Jeyakumar_Resume.pdf"
+                download
                 className="inline-flex items-center gap-2 px-6 py-3 rounded-full border border-border bg-card hover:bg-secondary transition-colors font-medium"
               >
                 <Download size={18} />

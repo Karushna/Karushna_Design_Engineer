@@ -1,4 +1,4 @@
-import { ArrowUp, Github, Linkedin, Mail, Twitter } from "lucide-react";
+import { ArrowUp, Github, Linkedin, Mail } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -6,8 +6,7 @@ const Footer = () => {
       <div className="container mx-auto px-6">
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="flex flex-col items-center md:items-start gap-2">
-            <span className="text-lg font-display font-bold text-gradient">Karushna Jeyakumar</span>
-            <p className="text-sm text-muted-foreground">© 2026 Karushna Jeyakumar. All rights reserved.</p>
+            <span className="text-lg font-display font-bold text-gradient">KJ</span>
           </div>
 
           <div className="flex items-center gap-6">
@@ -20,11 +19,8 @@ const Footer = () => {
             <a href="https://linkedin.com/in/karushna" target="_blank" rel="noopener noreferrer" className="p-2 rounded-full bg-secondary hover:bg-secondary/80 transition-colors text-muted-foreground hover:text-foreground" aria-label="LinkedIn">
               <Linkedin size={16} />
             </a>
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="p-2 rounded-full bg-secondary hover:bg-secondary/80 transition-colors text-muted-foreground hover:text-foreground" aria-label="GitHub">
+            <a href="https://github.com/Karushna/" target="_blank" rel="noopener noreferrer" className="p-2 rounded-full bg-secondary hover:bg-secondary/80 transition-colors text-muted-foreground hover:text-foreground" aria-label="GitHub">
               <Github size={16} />
-            </a>
-            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="p-2 rounded-full bg-secondary hover:bg-secondary/80 transition-colors text-muted-foreground hover:text-foreground" aria-label="Twitter">
-              <Twitter size={16} />
             </a>
             <a href="mailto:karushnajeyakumar01@gmail.com" className="p-2 rounded-full bg-secondary hover:bg-secondary/80 transition-colors text-muted-foreground hover:text-foreground" aria-label="Email">
               <Mail size={16} />
