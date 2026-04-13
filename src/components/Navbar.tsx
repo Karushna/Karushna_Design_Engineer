@@ -11,7 +11,7 @@ const navLinks = [
 ];
 
 const Navbar = () => {
-  const [dark, setDark] = useState(true);
+  const [dark, setDark] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
 

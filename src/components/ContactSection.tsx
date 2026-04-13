@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { Mail, Linkedin, Send } from "lucide-react";
+import { Mail, Linkedin, Send, Github } from "lucide-react";
 import contactImg from "@/assets/karushna-contact.jpeg";
 
 const ContactSection = () => {
@@ -51,6 +51,9 @@ const ContactSection = () => {
               </a>
               <a href="https://linkedin.com/in/karushna" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors">
                 <Linkedin size={18} className="text-accent" /> linkedin.com/in/karushna
+              </a>
+              <a href="https://github.com/Karushna/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors">
+                <Github size={18} className="text-accent" /> github.com/Karushna
               </a>
             </div>
           </motion.div>

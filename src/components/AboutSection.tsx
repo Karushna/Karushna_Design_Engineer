@@ -43,7 +43,8 @@ const AboutSection = () => {
               My work is driven by curiosity, creativity, and a commitment to delivering meaningful impact through thoughtful design and clean code. I believe the best digital products emerge when design thinking meets engineering rigor.
             </p>
             <a
-              href="#"
+              href="/Karushna_Jeyakumar_Resume.pdf"
+              download
               className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-gradient-primary text-primary-foreground font-medium hover:opacity-90 transition-opacity shadow-glow"
             >
               <Download size={18} />
