@@ -3,8 +3,11 @@
 Welcome to my personal portfolio! This website showcases my work as a **Senior Design Engineer**, highlighting my expertise in crafting scalable, high-performance, and user-centered digital experiences.
 
 🔗 **Live Website:** https://karushna-design-engineer.vercel.app/
+
 📧 **Email:** karushnajeyakumar01@gmail.com  
+
 💼 **LinkedIn:** https://linkedin.com/in/karushna
+
 💼 **Github:** https://github.com/Karushna
 
 ---
